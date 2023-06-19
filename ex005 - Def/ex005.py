@@ -1,3 +1,4 @@
+# def= Definições, é usado para criar função
 def multiplicador(numero):
         global a
         a = 2 # esta variável tem escopo local
