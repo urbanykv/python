@@ -19,7 +19,16 @@ print(5 == 5)
 print(2 != 3)
 
 """Esse é o tipo de de Variável Booleana, o resultado dela pode ser true e false, true se a resposta sobre aquela operação for verdade e false o contrário"""
+x = (2 > 5)
+y = (5 > 2)
 
+#Operador OU (OR)
+print(x or y)
+
+#Operador E (AND)
+print(x and y)
+
+#Operador NOT
 print(not(3 < 2))
 
 """Nesse caso aq é colocado o valor not, como sabemos not é o inversor na algebra booleana, ou seja, se o resultado de uma operação for true, com o inversor temos o resultado false."""
