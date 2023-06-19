@@ -18,7 +18,8 @@ print(5 == 5)
 #Não igual
 print(2 != 3)
 
-"""Esse é o tipo de de Variável Booleana, o resultado dela pode ser true e false, true se a resposta sobre aquela operação for verdade e false o contrário"""
+"""Esse é o tipo de de Variável Booleana, o resultado dela pode ser true e false, true se a resposta sobre aquela operação for verdade e false o contrário."""
+
 x = (2 > 5)
 y = (5 > 2)
 
