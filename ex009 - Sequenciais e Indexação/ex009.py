@@ -28,3 +28,26 @@ sobrenome = ("Urban")
 print(lista[-1] + " " + sobrenome)
 
 '''Como podemos ver, tbm podemos usar o valor negativo, como sa foi explicado.'''
+
+#Impressão de sequências
+
+seq = [0, 1, 2, 3]
+print(seq)
+
+'''Para imprimir uma substring, por exemplo, basta utilizar os colchetes para indicar o intervalo de índices que deve ser impresso. Vale lembrar que o primeiro caractere da string é indexado com 0. Confira na imagem:'''
+
+str = ("Hello World")
+
+print(str[0:6])
+
+print(str[2:5])
+
+'''Usar [0:4] provoca a impressão dos índices 0, 1, 2 e 3, mas não do índice 4. Analogamente, usar [2:8] provoca a impressão dos índices de 2 a 7, mas não do 8.'''
+
+'''//--------////--------////--------////--------'''
+
+'''Também é possível imprimir a string como lida da direita para a esquerda. Para isso, deve-se utilizar [: : -1]. Esse valor -1 indica que a leitura dos caracteres será feita no sentido oposto ao tradicional. Observe:'''
+
+print(str[::-1])
+print(str[8:2:-1])
+

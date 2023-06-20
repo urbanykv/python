@@ -23,3 +23,6 @@ print(float(True)) #Conversão de bool para float
 print(int(True)) #Conversão de bool para int
 print(bool(0)) #Conversão de int para bool
 print(bool(2.2)) #Conversão de float para bool
+print(str(True)) #Conversão de bool para string
+print(str(244)) #Conversão de int para string
+print(str(2.0)) #Conversão de float para string 
