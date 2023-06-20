@@ -19,9 +19,21 @@ print(f"O maior número é: {maior}")
 
 #Exercício 01
 
-x = 2
-if(x % == 0):
-    print(f"O número é par.")
+x = 
+if(x % 2 == 0):
+    resultado = ("O número é par.")
 else:
-    print("Seu numero é impar.")
+    resultado = ("Seu numero é impar.")
+
+print(resultado)
+
+#Exercício 02
+notaAluno = (input('Adicione a sua nota aqui:'))
+if(notaAluno >= 7):
+    resultado = ("Parabéns, você foi aprovado!")
+else(notaAluno >= 5):
+    resultado = ("Infelizmente você está de recuperação!")
+else:
+    resultado = ("Infelimente você está reprovado!")
+
 
