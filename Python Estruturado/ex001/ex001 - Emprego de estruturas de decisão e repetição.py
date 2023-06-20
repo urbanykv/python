@@ -20,7 +20,7 @@ print(f"O maior número é: {maior}")
 #Exercício 01
 
 x = 2
-if(2 % == 0):
+if(x % == 0):
     print(f"O número é par.")
 else:
     print("Seu numero é impar.")
