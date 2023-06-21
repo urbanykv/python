@@ -30,3 +30,10 @@ g = (2**10)
 print(g)
 
 """Esses são os operadores numéricos."""
+
+#Hierarquia das Operações Aritméticas
+
+'''1- () Parênteses
+   2- Exponenciação
+   3- Multiplicação ou Divisão (O que vier primeiro)
+   4- + ou - (O que vier primeiro)'''

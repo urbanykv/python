@@ -1,3 +1,30 @@
+#Estruturas de repetição
+
+'''A estrutura de repetição for tem funcionamento muito semelhante nas linguagens C e Python. Contudo, a sintaxe é diferente nas duas linguagens. Além disso, existe mais flexibilidade em Python, já que a repetição pode ser controlada por uma variável não numérica.'''
+
+'''Antes de detalharmos o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista nos ajudará a verificar a repetição e deixará mais claro o entendimento do laço. range()'''
+
+#Ela se encontra em Python Básico/ex013 - Objetos Range/ex013.
+
+#Estruturas de repetição for
+for num in range(2,9,3):
+    print(num)
+
+    #Primeiro Numero é o Parâmetro start, o segundo é o Parâmetro End e o ultimo é o Step.
+
+##Estruturas de repetição for com string
+nome = input("Entre com o seu nome: \n")
+
+for letra in nome:
+    print(letra)
+
+#Estruturas de repetição while
+
+palavra = input('Entre com uma palavra: \n ')
+while palavra != 'sair':
+    palavra = input('Digite sair para encerrar o laço: \n')
+print('Você digitou sair e agora está fora do laço')
+
 #As instruções auxiliares break, continue e pass (while)
 
 #A instrução break
