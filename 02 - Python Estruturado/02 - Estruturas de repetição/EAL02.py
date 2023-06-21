@@ -13,8 +13,6 @@
    
    Para: Primeiro é verificada se a condição é verdadeira, depois é executado o bloco de comandos. SErão novamente checados e executados enquanto a condição for verdadeira.
 '''
-   
-
 
 '''A estrutura de repetição for tem funcionamento muito semelhante nas linguagens C e Python. Contudo, a sintaxe é diferente nas duas linguagens. Além disso, existe mais flexibilidade em Python, já que a repetição pode ser controlada por uma variável não numérica.'''
 
