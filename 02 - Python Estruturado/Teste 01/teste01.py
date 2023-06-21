@@ -10,7 +10,7 @@ chupar a bala
 jogar o papel no lixo'''
 
 bala = input("A bala é de cereja? ")
-if(True):
+if(bala == True):
     bala = ("sim")
     print("Que nojo! Odeio bala de cereja.")
 else:

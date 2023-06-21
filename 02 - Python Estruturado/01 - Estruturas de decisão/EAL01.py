@@ -1,11 +1,13 @@
 #Emprego de estruturas de decisão e repetição
 
-#if, elif e else
+#if, elif, e else
+
+'''Com instruções de salto ou desvio pode-se fazer com que o programa proceda de uma maneira ou outra, de acorco com as decisões lógicas tomadas.'''
 
 #Estratégia 01
 a = 10
 b = 20
-if(a > b):
+if(a > b): 
     maior = a
 else:
     maior = b

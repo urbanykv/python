@@ -1,10 +1,26 @@
 #Estruturas de repetição
 
+'''
+   Enquanto algo, processar: O bloco de operações será executado enquanto a condição 'algo' for verdadeira.
+
+   Até que algo, processar: O bloco de operações será executado até que a condição 'algo' seja verdadeira. 
+
+   Processar, enquanto algo: Nesse tipo de estrutura, primeiramente o bloco é executado.
+   Caso a condição seja verdadeira, o bloco é executado novamente e caso seja falso o bloco é encerrado.
+
+   Processar, até que algo: Neste tipo de estrutura, primeiramente o bloco é executado, e somente depois é realizado o teste da condição.
+   O bloco é executado até que a condição se torne verdadeira.
+   
+   Para: Primeiro é verificada se a condição é verdadeira, depois é executado o bloco de comandos. SErão novamente checados e executados enquanto a condição for verdadeira.
+'''
+   
+
+
 '''A estrutura de repetição for tem funcionamento muito semelhante nas linguagens C e Python. Contudo, a sintaxe é diferente nas duas linguagens. Além disso, existe mais flexibilidade em Python, já que a repetição pode ser controlada por uma variável não numérica.'''
 
 '''Antes de detalharmos o for, vamos conhecer uma função de Python que gera uma lista de valores numéricos. Essa lista nos ajudará a verificar a repetição e deixará mais claro o entendimento do laço. range()'''
 
-#Ela se encontra em Python Básico/ex013 - Objetos Range/ex013.
+#Ela se encontra em Python Básico/10 - Objetos Range/AL10.py
 
 #Estruturas de repetição for
 for num in range(2,9,3):
