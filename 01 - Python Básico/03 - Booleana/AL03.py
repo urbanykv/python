@@ -23,13 +23,13 @@ print(2 != 3)
 x = (2 > 5)
 y = (5 > 2)
 
-#Operador OU (OR)
+#Operador OU/OR (&&)
 print(x or y)
 
-#Operador E (AND)
+#Operador E/AND (||)
 print(x and y)
 
-#Operador NOT
+#Operador NÃO/NOT (!)
 print(not(3 < 2))
 
 """Nesse caso aq é colocado o valor not, como sabemos not é o inversor na algebra booleana, ou seja, se o resultado de uma operação for true, com o inversor temos o resultado false."""
