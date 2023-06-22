@@ -6,6 +6,16 @@ x = 2
 #Atribuição múltipla
 x, y = 2, 5
 
+#Vetor
+
+l = int(labrador = [1]), int(basset = [5])#...
+
+#Matriz
+
+lista = [0] * 5
+a = [lista] * 5
+a[1][1] = 2
+
 #Operadores de Atribuição compostos (são usados para incrementar.).
 
 x = 10
