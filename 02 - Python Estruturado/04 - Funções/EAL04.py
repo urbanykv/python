@@ -25,8 +25,7 @@ def fatorial_iterativo(n):
 numero = 8
 print(f'fatorial de {numero} é: {fatorial_iterativo(numero)}')
 
-"""a, b =  0 , 1
-enquanto b < 10
-imprima b
 
-a, b = b, a + b"""
+a = 0
+a += 1
+print(a)
