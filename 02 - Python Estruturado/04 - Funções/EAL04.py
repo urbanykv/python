@@ -29,3 +29,8 @@ print(f'fatorial de {numero} é: {fatorial_iterativo(numero)}')
 a = 0
 a += 1
 print(a)
+
+def somar(n1, n2):
+    return n1 + n2 
+
+print(somar(5,6))
