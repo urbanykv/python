@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 #Variável Float, Ponto flutuante ou Real.
 valorCarro = (53.0)
 print(type(valorCarro))
@@ -5,7 +7,7 @@ print(valorCarro)
 
 
 #Variável Inteira.
-pirulitos = (10)
+pirulitos = Decimal('0.5')
 print(type(pirulitos))
 print(pirulitos)
 
