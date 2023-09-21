@@ -51,3 +51,20 @@ print(str[2:5])
 print(str[::-1])
 print(str[8:2:-1])
 
+
+numeros = [1, 5, 6, 74, 8, 69]
+
+numeros.append(55) # Adicionar no final do array (igual a ´push do JS).
+
+numeros.insert(0, 556) # Bem parecido com o Splice do JavaScript, mas ele apenas adiciona.. o primeiro parâmetro é a posição e o segundo é oque será adicionado.
+
+numeros.remove(74) # Remove qualquer Variável q for passada no parâmetro.
+
+numeros.pop(2) # Remove usando o indice como parâmetro para remoção.
+
+print(numeros)
+
+# Objetos
+
+
+
