@@ -67,4 +67,15 @@ print(numeros)
 # Objetos
 
 
+linguagens = ["JavaScript", "Python", "C++", "Java", "Delphi", "C#", "PHP"]
+
+# usando for
+
+contador = 0
+
+for linguagem in linguagens:
+    contador += 1
+    print(f"{contador} - {linguagem}")
+else:
+    print("Todas as linguagens já foram listadas.")
 
